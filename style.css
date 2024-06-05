@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Classic Console Neue';
+    text-align: center;
+    margin: 0;
+}
+
+.flex {
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+table, td, th {
+    border: rgb(0, 0, 0) 3px solid;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+  }
+
+th {
+    color: rgb(0, 0, 0);
+}
+
+  table {
+    margin: auto;
+    width: 65%;
+    border-collapse: collapse;
+    margin-bottom: 2%;
+  }
+
+@font-face {
+    font-family: 'Classic Console Neue';
+    src: url('../ClassicConsoleNeue.woff2') format('woff2'),
+        url('../ClassicConsoleNeue.woff') format('woff'),
+        url('../ClassicConsoleNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  @keyframes moveGradient {
+    0% { background-position: -100% 0; }
+    100% { background-position: 0 100%; }
+}
